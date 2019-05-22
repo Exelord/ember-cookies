@@ -660,7 +660,7 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
-"@sinonjs/commons@^1", "@sinonjs/commons@^1.0.2", "@sinonjs/commons@^1.3.1":
+"@sinonjs/commons@^1", "@sinonjs/commons@^1.0.2", "@sinonjs/commons@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.4.0.tgz#7b3ec2d96af481d7a0321252e7b1c94724ec5a78"
   dependencies:
@@ -673,9 +673,17 @@
     "@sinonjs/commons" "^1"
     "@sinonjs/samsam" "^3.1.0"
 
-"@sinonjs/samsam@^3.1.0", "@sinonjs/samsam@^3.2.0":
+"@sinonjs/samsam@^3.1.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-3.3.0.tgz#9557ea89cd39dbc94ffbd093c8085281cac87416"
+  dependencies:
+    "@sinonjs/commons" "^1.0.2"
+    array-from "^2.1.1"
+    lodash "^4.17.11"
+
+"@sinonjs/samsam@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-3.3.1.tgz#e88c53fbd9d91ad9f0f2b0140c16c7c107fe0d07"
   dependencies:
     "@sinonjs/commons" "^1.0.2"
     array-from "^2.1.1"
@@ -2763,7 +2771,7 @@ ember-cli-babel@^6.10.0, ember-cli-babel@^6.16.0, ember-cli-babel@^6.6.0, ember-
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.3, ember-cli-babel@^7.7.0:
+ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.7.0, ember-cli-babel@^7.7.3:
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.7.3.tgz#f94709f6727583d18685ca6773a995877b87b8a0"
   dependencies:
@@ -3118,14 +3126,14 @@ ember-router-generator@^1.2.3:
   dependencies:
     recast "^0.11.3"
 
-ember-sinon@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-sinon/-/ember-sinon-3.1.0.tgz#76733aae1cc32c9426202bdc0f5b61552753a7df"
+ember-sinon@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ember-sinon/-/ember-sinon-4.0.0.tgz#bb9bc43b68cc4500457261606a47c7b6ef8c30a3"
   dependencies:
     broccoli-funnel "^2.0.0"
     broccoli-merge-trees "^3.0.0"
-    ember-cli-babel "^7.1.3"
-    sinon "^7.1.1"
+    ember-cli-babel "^7.7.3"
+    sinon "^7.3.2"
 
 ember-source-channel-url@^1.0.1, ember-source-channel-url@^1.1.0:
   version "1.1.0"
@@ -5255,9 +5263,9 @@ lolex@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-2.3.2.tgz#85f9450425103bf9e7a60668ea25dc43274ca807"
 
-lolex@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lolex/-/lolex-3.1.0.tgz#1a7feb2fefd75b3e3a7f79f0e110d9476e294434"
+lolex@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/lolex/-/lolex-4.0.1.tgz#4a99c2251579d693c6a083446dae0e5c3844d3fa"
 
 loose-envify@^1.0.0:
   version "1.3.1"
@@ -6715,15 +6723,15 @@ simple-dom@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/simple-dom/-/simple-dom-1.3.0.tgz#8473e0d34e340544b061410dba3faf4f1b7aa282"
 
-sinon@^7.1.1:
-  version "7.2.7"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-7.2.7.tgz#ee90f83ce87d9a6bac42cf32a3103d8c8b1bfb68"
+sinon@^7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-7.3.2.tgz#82dba3a6d85f6d2181e1eca2c10d8657c2161f28"
   dependencies:
-    "@sinonjs/commons" "^1.3.1"
+    "@sinonjs/commons" "^1.4.0"
     "@sinonjs/formatio" "^3.2.1"
-    "@sinonjs/samsam" "^3.2.0"
+    "@sinonjs/samsam" "^3.3.1"
     diff "^3.5.0"
-    lolex "^3.1.0"
+    lolex "^4.0.1"
     nise "^1.4.10"
     supports-color "^5.5.0"
 
